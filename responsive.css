@@ -1,0 +1,195 @@
+
+@media only screen and (max-width : 660px ){
+	
+	 .navitems-mobile {
+		background: white;
+	    padding: 20px 0px;
+	    position: relative;
+	    top: 17px;
+	    z-index:2000;
+	}
+
+	.navitems-mobile ul li {
+		background: #f0f5f5;
+		border-bottom: 2px solid white;
+	
+		margin-bottom: 5px;
+	}
+	 .container1{
+	 	
+	 	
+	 	height: 300px;
+	 
+
+	 }
+	  .container4{
+ 	
+ 	
+ 	
+ 	padding: 30px;
+ 	
+
+ }
+	 .p1 {
+	    
+	    font-size: 30px;
+	    padding-top: 30px;
+	}
+	.p2{
+	 	
+	 	font-size: 18px;
+	 	padding-top: 6px;
+	 }
+
+
+	#h1{
+		
+		font-size: 36px;
+		padding-bottom: 20px;
+	}
+
+	#h2{
+		
+		font-size: 18px;
+		padding-bottom: 20px;
+		padding-top: 30px;
+	}
+
+	#h3{
+		font-size: 3px;
+		padding-bottom: 20px;
+	
+		font-weight:bold;
+		text-align: center;
+	}
+	#review{
+		border-bottom: 2px solid white;
+	}
+
+
+
+    .dropdown-menu {
+	background-color:#0099cc;
+
+    position: absolute;
+    top: 80%;
+    right: 32px;
+    z-index: 1000;
+    left: 48%;   
+    }
+
+    .image{
+	padding-left: 5%;
+	width: 80px;
+}
+
+ .sidenav {
+      padding-top: 20px;
+      
+      height: 200px;
+      transition: font-size 2s;
+
+ 
+    }
+    .sidenav a {
+	  padding: 8px 8px 8px 8px;
+	  text-decoration: none;
+	  font-size: 18px;
+	  color:white;
+	  display: block;
+	 
+	  text-align: left;
+  
+}
+
+ .sidenav a:hover{
+  
+  font-size:24px;
+}
+.dropdown-menu {
+    right: 28px;
+     left: 46%;   
+    }
+
+   
+
+}
+
+
+
+@media only screen and (min-width : 700px ) {
+	.navbar li {
+	    padding: 0px 10px;
+	}
+	#review{
+		border-right: 2px solid white;
+	}
+	.navbar-brand{
+	padding-right: 15px;
+}
+.sidenav {
+      padding-top: 40px;
+      
+      height: 1600px;
+      transition: font-size 2s;
+
+ 
+    }
+	.navbar li {
+	padding: 0px 10px;
+}
+	.dropdown-menu {
+    right: 34px;
+     left: 67%;   
+    }
+}
+
+
+@media only screen and (min-width : 1000px ) {
+	.navbar li {
+	    padding: 0px 20px;
+	}
+	#review{
+		border-right: 2px solid white;
+		padding: 0px 20px;
+	}
+	.sidenav {
+      padding-top: 40px;
+      
+      height: 2100px;
+      transition: font-size 2s;
+
+ 
+    }
+    .sidenav a {
+	  padding: 8px 8px 8px 8px;
+	  text-decoration: none;
+	  font-size: 22px;
+	  color:white;
+	  display: block;
+	 
+	  text-align: left;
+  
+}
+      .image{
+	padding-left: 40%;
+	width: 160px;
+}
+    .dropdown-menu {
+    right: 145px;
+     left: 75%;   
+    }
+}
+
+@media only screen and (min-width: 1400px) {
+	.navbar li {
+	    padding: 0px 48px;
+	}
+	#review{
+		border-right: 2px solid white;
+		padding: 0px 10px;
+	}
+	.navbar-brand{
+	padding-right: 5px;
+}
+}

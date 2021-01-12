@@ -1,0 +1,247 @@
+body{
+	background-color: white;
+	font-family: 'Ubuntu';
+}
+
+.navbar{
+	height: 100px;
+	
+	
+}
+
+.navbar-brand{
+	padding-right: 60px;
+}
+
+.navbar li {
+	padding: 0px 35px !important;
+}
+
+.navbar li a {
+    font-weight: bold;
+    font-size: 18px !important;
+    color: black ;
+    
+  }
+
+.navbar li a:hover {
+    color: #0099cc !important;
+    font-weight: bold;
+    font-size: 18px;
+    
+  }
+  .active a{
+	color:  #0099cc !important;
+}
+
+.modal-backdrop {
+     position: relative;
+ }
+ .container1{
+ 	background-image: url("pictures/back6.png");
+ 	background-size: cover;
+ 	
+ 	height: 700px;
+ 
+
+ }
+.a1{
+	padding-right: 25px;
+}
+ .container2{
+ 	padding-top: 0px !important;
+
+ 	background-size: cover;
+ 	height: auto;
+ 	padding-bottom: 50px;
+ 
+ }
+
+ .container3{
+ 	background-color: black;
+ 	max-width: 100%;
+ 	height: auto;
+ 	padding-bottom: 50px;
+
+ }
+  .container4{
+ 	background-image: url("pictures/back9.jpg");
+ 	max-width: 100%;
+ 	height: auto;
+ 	padding: 70px;
+ 	background-size: cover;
+
+ }
+ .container5{
+ 
+ 	max-width: 100%;
+ 	height: auto;
+ 	padding: 70px;
+ 	background-size: cover;
+
+ }
+
+ .container6{
+ 	height: auto;
+ 	background-color: #f8f9fa;
+ 	margin-left:  15%;
+ 	
+ 	margin-top: 20px;
+ }
+ .container7{
+	background-image: url("pictures/regback.jpg");
+	max-width: 100%;
+	height: auto;
+	padding: 5% 30%;
+	background-size: cover;
+
+}
+.jumbotron{
+	height: 100px;
+	padding:0px 80px;
+}
+ .p1{
+ 	text-align: left;
+ 	font-size: 65px;
+ 	
+ 	color:white;
+ 	font-weight: bold;
+ 	padding-top: 150px;
+ }
+ .p2{
+ 	text-align: left;
+ 	font-size: 22px;
+ 	font-variant-caps: petite-caps;
+ 	color:white;
+ 	font-weight: normal;
+ 	padding-top: 30px;
+ }
+ .p3{
+ 	text-align: center;
+ 	font-size: 22px;
+ 	color:white;
+ 	font-weight: normal;
+ 	
+ }
+
+#h1{
+	font-weight: bold;
+	text-align: center;
+	font-size: 56px;
+	padding-bottom: 30px;
+	color:  black;
+}
+
+#h2{
+	font-weight: normal;
+	text-align: center;
+	font-size: 22px;
+	padding-bottom: 30px;
+	color: white;
+	padding-top: 50px;
+}
+.col-sm-7{
+	padding-top: 25px;
+
+}
+#col-sm-6{
+	padding-left: 30px;
+
+}
+#price{
+	font-weight: bold;
+	font-size: 25px;
+	color: #0099cc;
+}
+#bedrooms{
+	font-size: 20px;
+	color: black;
+	font-weight: bold;
+}
+
+
+.carousel-indicators {
+	position: relative !important;
+	top: 10px;
+}
+
+.dropdown-menu {
+	background-color:#0099cc;
+
+    position: absolute;
+    top: 80%;
+    right: 32px;
+    z-index: 1000;
+     left: 48%;   
+    }
+
+.image{
+	padding-left: 45%;
+	width: 180px;
+}
+.navbar {
+      margin-bottom: 0;
+      border-radius: 0;
+    }
+    
+  
+    .sidenav {
+      padding-top: 80px;
+    
+      height: 1300px;
+      transition: font-size 2s;
+
+ 
+    }
+    .sidenav a {
+	  padding: 8px 8px 8px 32px;
+	  text-decoration: none;
+	  font-size: 25px;
+	  color:white;
+	  display: block;
+	  text-align: left;
+  
+}
+    .sidenav a:hover{
+  
+  font-size:30px;
+}
+.dropbtn {
+	background-color: #4CAF50;
+	color: white;
+	padding: 16px;
+	font-size: 16px;
+	border: none;
+	cursor: pointer;
+  }
+  
+  .dropdown {
+	position: relative;
+	display: inline-block;
+  }
+  
+  .dropdown-content {
+	display: none;
+	position: absolute;
+	background-color: #f9f9f9;
+	min-width: 160px;
+	box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+	z-index: 1;
+  }
+  
+  .dropdown-content a {
+	color: black;
+	padding: 12px 16px;
+	text-decoration: none;
+	display: block;
+  }
+  
+  .dropdown-content a:hover {background-color: #f1f1f1}
+  
+  .dropdown:hover .dropdown-content {
+	display: block;
+  }
+  
+  .dropdown:hover .dropbtn {
+	background-color: #3e8e41;
+  }
